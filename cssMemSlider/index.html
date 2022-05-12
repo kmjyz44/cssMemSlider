@@ -1,0 +1,62 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SLider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="flex-wrapper">
+        <audio controls class="audio">
+            <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis"  controls="controls">
+            <source src="./audio/001.  Galwaro x LIZOT x Gabry Ponte  -  Like A Prayer.mp3" type="audio/mpeg">
+          </audio>
+        <div class="slider-wrapper">
+            <div class="slide active">
+                <img src="./img/1.jpg" alt="">
+                
+                    <p>The best </p>
+                
+            </div>
+            <div class="slide">
+                <img src="./img/2.jpg" alt="">
+                
+                    <p>journeys</p>
+               
+            </div>
+            <div class="slide">
+                <img src="./img/3.jpg" alt="">
+                
+                    <p>are not</p>
+                
+            </div>
+            <div class="slide">
+                <img src="./img/4.jpg" alt="">
+                
+                    <p>always</p>
+                
+            </div>
+            <div class="slide">
+                <img src="./img/5.jpg" alt="">
+                
+                    <p>straight lines.</p>
+            
+            </div>
+            <div class="dots-wrapper">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <div id="prev"></div>
+            <div id="next"></div>
+        </div>
+    </div>
+   
+    <script src="src.js"></script>
+</body>
+</html>
